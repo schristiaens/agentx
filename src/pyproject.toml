@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "Agent_X_Slack_Bot"
+version = "0.1.0"
+description = "A generic Slack bot for building on"
+authors = [
+    { name="Steve Christiaens", email="schristiaens@bamboohr.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv",
+    "slack-sdk",
+    "slack-bolt"
+]
